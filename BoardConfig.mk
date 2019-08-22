@@ -108,7 +108,7 @@ TW_NO_BATT_PERCENT := false
 TW_USE_TOOLBOX := true
 TW_IGNORE_MISC_WIPE_DATA := true
 TW_HAS_EDL_MODE := true
-TW_RECOVERY_ADDITIONAL_RELINK_FILES := ${OUT}/system/lib64/android.hardware.boot@1.0.so
+TW_RECOVERY_ADDITIONAL_RELINK_FILES := ${OUT_DIR}/target/product/shark/system/lib64/android.hardware.boot@1.0.so
 
 # Display
 TW_THEME := portrait_hdpi
